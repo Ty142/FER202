@@ -8,7 +8,7 @@ function App() {
         <h1> Course Name </h1>
           <ul>
             <li>  React </li>
-            <li>  ReactNative  </li>
+            <li>  ReactNative</li>
             <li>  NodeJs </li>
           </ul>
       </header>
