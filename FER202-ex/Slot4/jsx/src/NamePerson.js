@@ -1,3 +1,5 @@
+import PeopleList from "./PeopleList";
+
 function NamePerson() {
   const names = ["Alice", "Bob", "Charlie"];
 
@@ -19,16 +21,6 @@ function NamePerson() {
         2. Display person( Name {person.name}, age: {person.age}, occupation:{" "}
         {person.occupation})
       </h2>
-
-      <table>
-        <thead>
-          <tr>Name</tr>
-          <tr>Age</tr>
-        </thead>
-        <tbody>
-          <></>
-        </tbody>
-      </table>
     </div>
   );
 }

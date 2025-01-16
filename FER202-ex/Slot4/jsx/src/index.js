@@ -5,6 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import NamePerson from "./NamePerson";
 import PeopleList from "./PeopleList";
+import FirstTeenager from "./FirstTeenager";
+import AreAllTeenagers from "./AreAllTeenagers";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +14,8 @@ root.render(
     <App />
     <NamePerson />
     <PeopleList />
+    <FirstTeenager />
+    <AreAllTeenagers />
   </React.StrictMode>
 );
 
