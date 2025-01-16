@@ -24,6 +24,7 @@ function App() {
     { name: "Company One", category: "Finance", start: 1981, end: 2004 },
     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
     { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+
     { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
     { name: "Company Five", category: "Technology", start: 2009, end: 2014 },
     { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
@@ -32,6 +33,7 @@ function App() {
     { name: "Company Nine", category: "Retail", start: 1981, end: 1989 },
   ];
 
+  const style1 = { background: " rgb(44, 133, 83)" };
   var people = [
     { name: "Jack", age: 50 },
     { name: "Michael", age: 9 },
@@ -66,7 +68,6 @@ function App() {
             Hello
             <span style={{ color: "blue", fontWeight: "bolder" }}> React </span>
           </h2>
-
           <div id="icon">
             <img class="App-logo" src={logo} alt="Logo" />
             <h3
@@ -93,10 +94,9 @@ function App() {
               The library for web and native user interfaces
             </p>
           </div>
-
           <div id="nav">
             <ul id="nav-ul" style={{ display: "flex" }}>
-              <li style={{ background: "rgb(44, 133, 83)" }}>Home</li>
+              <li style={style1}>Home</li>
               <li>Search</li>
               <li>Contact</li>
               <li style={{ background: "black" }}>Login</li>
@@ -104,7 +104,6 @@ function App() {
           </div>
 
           <h1 style={{ color: "blue", fontSize: "bolder" }}> This is JSX</h1>
-
           <h1> Course Name </h1>
           <ul>
             <li> React </li>
@@ -138,7 +137,6 @@ function App() {
               </ul>
             ))}
           </div>
-
           <div>
             <h1>JSX and SE6 EX2</h1>
             <h2>the accumulator : {array.reduce((acc, p) => acc + p)}</h2>
@@ -245,7 +243,6 @@ function App() {
               <pre>{JSON.stringify(queryParams, null, 2)}</pre>
             </div>
           </div>
-
           <div>
             <h1>JSX and SE6 EX4</h1>
           </div>
