@@ -1,0 +1,45 @@
+.col-sm {
+  background-color: rgb(211, 211, 211);
+  padding: 20px;
+  border: 0.1px solid black;
+  text-align: left;
+}
+
+.row {
+  width: 70%;
+  margin-left: 15%;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(210, 197, 197);
+}
+
+#ex2 {
+  text-align: center;
+}
+
+.logo-image {
+  width: 20%;
+  height: 20%;
+}
+
+.header {
+  background-color: rgb(234, 143, 46);
+}
+.logo {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(242, 202, 129);
+}
+
+#nav {
+  background-color: rgb(234, 205, 173);
+}
+
+#nav-logofpt {
+  width: 10%;
+  margin-left: 70px;
+}
