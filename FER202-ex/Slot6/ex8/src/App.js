@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Button, InputGroup, FormControl } from "react-bootstrap";
 function App() {
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 shadow rounded">
       <h2 className="text-center">Form đặt vé máy bay</h2>
 
-      <Form className="border p-3 shadow rounded">
+      <Form className="border p-3 ">
         <Form.Group className="mb-3">
           <Form.Label>Họ tên</Form.Label>
           <InputGroup>
