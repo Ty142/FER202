@@ -1,0 +1,209 @@
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+/* App container */
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #4caf50, #2196f3); /* Gradient mặc định */
+  transition: background 0.3s ease;
+}
+
+/* DishesList styles */
+.dishes-container {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.dishes-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  outline: none;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dish-item {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.dish-item:hover {
+  transform: translateY(-5px);
+}
+
+.dish-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dish-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.dish-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.dish-item button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4caf50, #2196f3);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.dish-item button:hover {
+  background: linear-gradient(135deg, #45a049, #1976d2);
+  transform: scale(1.05);
+}
+
+/* Cart styles */
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cart-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-items {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items button {
+  padding: 5px 15px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-items button:hover {
+  background: #d32f2f;
+}
+
+.cart-summary {
+  text-align: center;
+}
+
+.cart-summary p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.cart-summary button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: linear-gradient(135deg, #4caf50, #2196f3);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cart-summary button:hover {
+  background: linear-gradient(135deg, #45a049, #1976d2);
+  transform: scale(1.05);
+}
+
+.confirm-button {
+  background: linear-gradient(135deg, #ff9800, #f44336);
+}
+
+.confirm-button:hover {
+  background: linear-gradient(135deg, #f57c00, #d32f2f);
+}
+
+.success-message {
+  color: #4caf50;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Theme toggle button */
+.theme-toggle-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #4caf50, #2196f3);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.theme-toggle-button:hover {
+  background: linear-gradient(135deg, #45a049, #1976d2);
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dish-item {
+    width: 100%;
+    max-width: 300px;
+  }
+  .search-input {
+    max-width: 100%;
+  }
+}
