@@ -9,6 +9,7 @@ import pizza from "./Images/pizza.jpg";
 import cheese from "./Images/ElaiCheeseCake.jpg";
 import donut from "./Images/Vadonut.jpg";
 import zu from "./Images/Zucchipakoda.jpg";
+import "./App.css";
 
 const dishes = [
   {
